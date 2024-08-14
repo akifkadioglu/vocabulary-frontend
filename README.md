@@ -1,4 +1,4 @@
-# vocabulary-frontend
+# Vocabulary Frontend
 
 ## Project setup
 ```
