@@ -38,8 +38,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { onMounted, ref } from 'vue';
+import { i18n } from './i18n/i18n';
 const modules = [Navigation, Pagination, Scrollbar, A11y]
 const images = ref([])
+
 
 function loadImages() {
   const requireContext = require.context('@/assets/views', false, /\.(png|jpe?g|gif)$/);
@@ -49,6 +51,7 @@ function loadImages() {
 
 onMounted(() => {
   loadImages()
+  document.title = i18n.global.t('header');
 })
 
 </script>

@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="manifest" href="<%= BASE_URL %>manifest.json">   
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Vocabulary is a user-friendly and intuitive dictionary app designed to make learning new words easy and enjoyable. Whether you want to expand your vocabulary or reinforce your existing knowledge, this app is the perfect tool for you. With no need for an internet connection, you can look up word meanings, translations, and usage examples anytime, anywhere. Simplify your language learning experience and enhance your vocabulary with Vocabulary."
+    />
+    <meta name="theme-color" content="#0078a6" />
+
+    <!-- ios -->
+    <meta name="apple-mobile-web-app-title" content="Vocabulary" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0078a6" />
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Vocabulary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vocabulary.akifkadioglu.dev/" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/akifkadioglu/vocabulary-frontend/main/public/img/card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!--  Non-Essential, But Recommended -->
+    <meta
+      property="og:description"
+      content="Vocabulary is a user-friendly and intuitive dictionary app designed to make learning new words easy and enjoyable. Whether you want to expand your vocabulary or reinforce your existing knowledge, this app is the perfect tool for you. With no need for an internet connection, you can look up word meanings, translations, and usage examples anytime, anywhere. Simplify your language learning experience and enhance your vocabulary with Vocabulary."
+    />
+    <meta property="og:site_name" content="Vocabulary" />
+    <meta name="twitter:image:alt" content="Vocabulary" />
+    <meta
+      property="twitter:image"
+      content="https://raw.githubusercontent.com/akifkadioglu/vocabulary-frontend/main/public/img/card.png"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="manifest" href="<%= BASE_URL %>manifest.json" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
   </body>
